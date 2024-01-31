@@ -1,0 +1,3 @@
+var posts=["2024/01/31/bigdecimal/","2024/01/31/java-basic-questions-01/","2024/01/31/hello-world/","2024/01/31/proxy/","2024/01/31/reflection/","2024/01/31/java-basic-questions-03/","2024/01/31/spi/","2024/01/31/serialization/","2024/01/31/syntactic-sugar/","2024/01/31/unsafe/","2024/01/31/why-there-only-value-passing-in-java/","2024/01/31/java-basic-questions-02/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
